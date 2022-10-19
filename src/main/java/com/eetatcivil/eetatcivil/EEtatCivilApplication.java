@@ -10,4 +10,5 @@ public class   EEtatCivilApplication {
         SpringApplication.run(EEtatCivilApplication.class, args);
     }
 
+
 }

@@ -1,4 +1,4 @@
-package com.eetatcivil.eetatcivil.entities;
+package com.eetatcivil.eetatcivil.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,13 +8,13 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import java.util.Date;
 
-@Entity
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@DiscriminatorValue("MAR")
-public class ActeMariage extends Acte{
 
+@Data
+
+public class ActeMariageDTO extends ActeDTO {
+
+    private Long id;
+    private int numRegistre;
     private String mentionMarginale;
     private String nomConjoint;
     private Date dateContrat;

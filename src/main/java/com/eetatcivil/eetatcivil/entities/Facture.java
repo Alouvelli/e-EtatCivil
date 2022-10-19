@@ -1,7 +1,6 @@
 package com.eetatcivil.eetatcivil.entities;
 
 import com.eetatcivil.eetatcivil.enums.modePaiement;
-import com.eetatcivil.eetatcivil.enums.typeActe;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
